@@ -1,5 +1,5 @@
 /*Author: Davin Asiala
-  Date: 11/2/2023
+  Date: 11/7/2023
   Filename: styles.css*/
 
   /*CSS Reset*/
@@ -13,7 +13,7 @@ body, header, nav, main, footer, img, h1, h3 ul, aside, figure, figcaption {
 /*Style rules for body and images*/
 
 body {
-    background-color: #9deca9;
+    background-color: #a9d3b0;
 }
 
 img {
@@ -58,7 +58,7 @@ nav ul {
 
 nav li {
     display: block;
-    border-top: 0.5px #9deca9;
+    border-top: 0.5px #a9d3b0;
     font-size: 1.5em;
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
@@ -66,7 +66,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: #9deca9;
+    color: #a9d3b0;
     text-decoration: none;
     padding: 0.5em 2em 0.5em 2em;
 }
@@ -75,7 +75,7 @@ nav li a {
 
 main {
     padding: 2%;
-    font-family: Lora;
+    font-family: Crimson Text;
 }
 
 main p {
@@ -91,7 +91,7 @@ main ul {
 }
 
 .link {
-    color: #4d3319;
+    color: #194d19;
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
@@ -104,7 +104,7 @@ main ul {
 }
 
 .round {
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 aside {
@@ -145,7 +145,7 @@ figcaption {
 }
 
 .tel-link a {
-    color: #9deca9;
+    color: #a9d3b0;
     text-decoration: none;
     font-weight: bold;
 }
@@ -155,7 +155,7 @@ footer {
     text-align: center;
     font-size: 0.85em;
     background-color: #01240e;
-    color: #9deca9;
+    color: #a9d3b0;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 0%;
@@ -163,7 +163,7 @@ footer {
 }
 
 footer a {
-    color: #9deca9;
+    color: #a9d3b0;
     text-decoration: none;
 }
 
@@ -213,7 +213,7 @@ footer a {
 
     nav li a:hover {
         color: #01240e;
-        background-color: #9deca9;
+        background-color: #a9d3b0;
         opacity: 0.5;
     }
 
@@ -236,7 +236,7 @@ footer a {
 /*Media Query for Large Desktop Viewports*/
 @media screen and (min-width: 1921px) {
     body {
-        background: linear-gradient(#9deca9, rgb(78, 145, 16));
+        background: linear-gradient(#a9d3b0, rgb(78, 145, 16));
     }
     
     #wrapper {
@@ -245,7 +245,7 @@ footer a {
     }
 
     main {
-        background-color: #9deca9;
+        background-color: #a9d3b0;
     }
 
     .grid {
