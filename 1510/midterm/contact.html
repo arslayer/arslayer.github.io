@@ -34,14 +34,15 @@
 
         <!--Nav contains navigation links to rest of site-->
         <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="faqs.html">FAQs</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-        </nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
 
         <!--Contains main homepage contents-->
         <main>
@@ -51,6 +52,39 @@
                 <p class="tab-desk">(770) 555-5555</p>
                 <P>Email: <a class="link" href="mailto:dasiala1872@student.gwinnetttech.edu">Davin A.</a></P>
                 <p>Address: <a class="link" href="https://maps.app.goo.gl/DzKF5cuVAtXvjpE87" target="_blank">5555 Spin Dr, Duluth, GA 30096</a></p>
+            </div>
+            <div id="form">
+                <h2>Complete the form below to sign up for our mailing list!</h2>
+                <form class="form-grid"><!-- Start Form -->
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="fName">First name:</label>
+                        <input type="text" name="fName" id="fName">
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone">
+                    </fieldset>
+                    <fieldset>
+                        <legend>What genres of music do you like?</legend>
+                        <p>I enjoy...</p>
+                        <label for="pop/rock"><input type="checkbox" name="genre" id="pop/rock" value="Pop/Rock">Pop/Rock</label>
+                        <label for="metal"><input type="checkbox" name="genre" id="metal" value="Heavy Metal">Heavy Metal</label>
+                        <label for="jazz"><input type="checkbox" name="genre" id="jazz" value="Jazz">Jazz</label>
+                        <label for="classical"><input type="checkbox" name="genre" id="classical" value="Classical">Classical</label>
+                        <label for="hip-hop"><input type="checkbox" name="genre" id="hip-hop" value="Hip Hop">Hip Hop</label>
+                        <label for="r&b"><input type="checkbox" name="genre" id="r&b" value="R&B">R&B</label>
+                        <label for="electronic"><input type="checkbox" name="genre" id="electronic" value="Electronic">Electronic</label>
+                        <label for="world"><input type="checkbox" name="genre" id="world" value="World">World</label><br>
+                        <label for="other">Anything else not listed here? Let us know!</label>
+                        <textarea name="other" id="questions" rows="5" cols="55"></textarea>
+                    </fieldset>
+                    
+                    <input type="submit" id="submit" value="Submit" class="btn">
+
+                </form>
             </div>
         </main>
 
