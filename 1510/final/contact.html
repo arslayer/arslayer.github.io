@@ -2,13 +2,14 @@
 <!--
     Student Name: Davin Asiala
     File Name: contact.html
-    Date: 11/8/2023
+    Date: 12/3/2023
 -->
 <html lang="en">
 <head>
-    <title>Contact</title>
+    <title>Contact Us | PhonoPhreaks</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="You can reach us at: (770) 555-5555 Email: Davin A. Address: 5555 Spin Dr, Duluth, GA 30096"
+    <link rel="stylesheet" href="css/styles.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,22 @@
     <link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> 
 </head>
 <body>
+    <!-- Skip to Content Link -->
+    <a class="skip" href="#content">Skip to Content</a>
+
     <div id="wrapper">
+        <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="join.html">Join Us</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a class="nav-icon" onclick="hamburger()"><div id="icon">&#9776;</div></a>
+        </nav>
         <!--Enter header information such as logo or Website Name-->
 
         <header>
@@ -33,7 +49,7 @@
         </header>
 
         <!--Nav contains navigation links to rest of site-->
-        <nav>
+        <nav class="tab-desk">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -45,7 +61,7 @@
     </nav>
 
         <!--Contains main homepage contents-->
-        <main>
+        <main id="content">
             <div id="contact">
                 <h2>You can reach us at:</h2>
                 <p class="tel-link round mobile" ><a href="tel:+17705555555">(770) 555-5555</a></p>
@@ -90,9 +106,16 @@
 
         <!--Footer elements-->
         <footer>
-            <p>&#128231;<a href="mailto:dasiala1872@student.gwinnetttech.edu">Davin A.</a></p>
-            <p>&copy; Copyright 2023. All Rights Reserved.</p>
+            <div class="copyright">
+                <p>&#128231;<a href="mailto:dasiala1872@student.gwinnetttech.edu">Davin A.</a></p>
+                <p>&copy; Copyright 2023. All Rights Reserved.</p>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com"><img src="images/facebook-logo" alt="Facebook logo"></a>
+                <a href="https://www.twitter.com"><img src="images/twitter-logo.png" alt="twitter logo"></a>
+            </div>
         </footer>
     </div>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
